@@ -128,14 +128,19 @@ footer {
 .frame::before {
     content: '';
     position: absolute;
-    top: 16px;
-    left: 25px;
+    top: 25%;
+    left: 5%;
     width: 96%;
     height: 70%;
     z-index: -1;
     box-sizing: border-box;
-    border: 2px solid rgb(238, 255, 0);
+    border: 2px solid rgb(253, 255, 114);
     border-radius: 5px;
+}
+
+span {
+    padding: 10px;
+    font-size: 0.4em;
 }
 
 @media only screen and (min-width: 319px) and (max-width: 480px) {
