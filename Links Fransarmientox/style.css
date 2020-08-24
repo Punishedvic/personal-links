@@ -137,54 +137,47 @@ footer {
     margin-top: 5vh;
 }
 
-.frame {
-    position: relative;
-}
-
-
-/* .frame::before {
-    content: '';
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    width: 96%;
-    height: 70%;
-    z-index: -1;
-    box-sizing: border-box;
-    border: 2px solid rgb(253, 255, 114);
-    border-radius: 5px;
-} */
-
-span {
-    padding: 10px;
-    font-size: 0.4em;
+p {
+    color: white;
 }
 
 @media only screen and (min-width: 319px) and (max-width: 480px) {
-    .uno {
-        width: 8vw;
-        height: 7vh;
+    .boton {
+        width: 85vw;
     }
-    .dos {
-        width: 13vw;
-        height: 5vh;
-        top: 20%;
-        right: 10%;
+    .boton img {
+        left: 10px;
+    }
+    video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 100%;
+        left: 100%;
+        transform: translateX(-100%) translateY(-100%);
+        z-index: -100;
+        background-size: cover;
+        filter: brightness(10%);
+    }
+    video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 55%;
+        left: 35%;
+        transform: translateX(-35%) translateY(-55%);
+        z-index: -100;
+        background-size: cover;
+        filter: brightness(10%);
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .uno {
-        width: 7vw;
-        height: 11vh;
-        top: 80%;
-    }
-    .dos {
-        width: 10vw;
-        height: 6vh;
-        top: 20%;
-        left: 15%;
-    }
+    video {}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
