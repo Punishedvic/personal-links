@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Nunito;
+    src: url(./fonts/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Light.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+    z-index: -100;
+    background-size: cover;
+    filter: brightness(10%);
+}
+
+.flexcontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer a {
+    text-decoration: none;
+}
+
+.boton {
+    height: 8vh;
+    width: 60vw;
+    margin: 2vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(118, 180, 206);
+    border: 2px rgb(249, 188, 102) solid;
+    box-shadow: 10px 10px 0px 4px rgba(0, 0, 0, 0.75);
+}
+
+.insta {
+    display: flex;
+}
+
+.boton img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 90%;
+}
+
+
+/* .boton:hover {
+    box-shadow: 0px 0px 14px 1px rgba(227, 176, 75, 1);
+    box-sizing: border-box;
+} */
+
+.foto {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    color: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, rgb(249, 188, 102) 20%)
+}
+
+.foto img {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+    border: 2px rgb(249, 188, 102) solid;
+}
+
+h2 {
+    margin: 0;
+    position: relative;
+    display: block;
+    top: -10px;
+    font-size: 1.4em;
+    color: white;
+}
+
+.uno {
+    width: 8vw;
+    height: 8vh;
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    display: inline-block;
+}
+
+.dos {
+    width: 13vw;
+    height: 5vh;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Nunito, Helvetica, sans-serif;
+    font-size: 0.7em;
+    margin-top: 5vh;
+}
+
+.frame {
+    position: relative;
+}
+
+
+/* .frame::before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 96%;
+    height: 70%;
+    z-index: -1;
+    box-sizing: border-box;
+    border: 2px solid rgb(253, 255, 114);
+    border-radius: 5px;
+} */
+
+span {
+    padding: 10px;
+    font-size: 0.4em;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 480px) {
+    .uno {
+        width: 8vw;
+        height: 7vh;
+    }
+    .dos {
+        width: 13vw;
+        height: 5vh;
+        top: 20%;
+        right: 10%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .uno {
+        width: 7vw;
+        height: 11vh;
+        top: 80%;
+    }
+    .dos {
+        width: 10vw;
+        height: 6vh;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .uno {
+        width: 7vw;
+        height: 11vh;
+        top: 80%;
+    }
+    .dos {
+        width: 10vw;
+        height: 6vh;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .uno {
+        width: 5vw;
+        height: 10vh;
+        top: 80%;
+    }
+    .dos {
+        width: 7vw;
+        height: 7vh;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1441px) {
+    .uno {
+        width: 4vw;
+        height: 10vh;
+        top: 80%;
+    }
+    .dos {
+        width: 7vw;
+        height: 7vh;
+        top: 20%;
+        left: 15%;
+    }
+}
