@@ -1,0 +1,121 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     scroll-behavior: smooth
+ }
+ 
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .upper-side {
+     display: flex;
+ }
+ 
+ .back-img {
+     margin: 0;
+     background-image: url('./assets/img/back.jpg');
+     position: relative;
+     align-items: center;
+     width: 100vw;
+     height: 40vh;
+     background-position: center 25%;
+     background-repeat: no-repeat;
+     background-color: black;
+     background-attachment: fixed;
+ }
+ 
+ .titulo {
+     position: sticky;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     top: 20vh;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     text-decoration: line-through black 5px;
+ }
+ 
+ .container-overlay {
+     background-color: black;
+     position: relative;
+     width: 100vw;
+     height: 1000px;
+ }
+ 
+ .bio {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+ }
+ 
+ .bio-links {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 2rem;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.3rem;
+     align-items: flex-start;
+ }
+ 
+ a,
+ a:focus,
+ a:active {
+     text-decoration: none;
+     color: inherit;
+     transition: ease-out 0.4s;
+     box-shadow: inset 0 0 0 0 white;
+ }
+ 
+ a:hover {
+     text-decoration: none;
+     color: black;
+     box-shadow: inset 300px 0 0 0 white;
+ }
+ 
+ .insta {
+     padding: 1rem;
+     background-image: url('./assets/img/ig-icon.png');
+     background-repeat: no-repeat;
+     background-position: -10px 5px;
+     background-size: 3rem;
+     width: 150%;
+     padding-left: 3rem;
+ }
+ 
+ .twitch {
+     padding: 1rem;
+     background-image: url('./assets/img/tw-icon.png');
+     background-repeat: no-repeat;
+     background-position: 2px 15px;
+     background-size: 1.5rem;
+     padding-left: 3rem;
+     width: 110%;
+ }
+ 
+ .desc {
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     margin-top: -10px;
+     padding-left: 2rem;
+     font-size: 1.1rem;
+     line-height: 25px;
+ }
+ 
+ .solid {
+     width: 73%;
+     margin: 2rem;
+ }
+ /* VIDEO */
+ 
+ .videoplayer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2rem;
+ }

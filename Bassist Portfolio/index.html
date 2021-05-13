@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@fransarmientox</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -27,36 +28,20 @@
         <!-- Bio data -->
 
         <div class="bio">
-            <div class="bio-links">
+            <div class="bio-links" data-aos="fade-left">
                 <a href="" class="insta">@fransarmientox</a>
                 <a href="" class="twitch">twitch.tv/fransarmientox</a>
             </div>
-            <div class="bio-desc">
+            <div class="bio-desc" data-aos="fade-right">
                 <p class="desc">músico sesionista<br>bajista profesional<br>clases en y a domicilio</p>
             </div>
-            <hr class="solid">
+            <hr class="solid" data-aos="fade-left">
         </div>
 
         <!-- video -->
 
-        <div class="gallery-slider">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <iframe id="player0" width="612" height="345" src="https://www.youtube.com/embed/V2cF4uE0mXs?enablejsapi=1&html5=1&rel=0" frameborder="0" allowfullscreen iframe-video></iframe>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <iframe id="player1" width="612" height="345" src="https://www.youtube.com/embed/xvJRCI9ERsQ?enablejsapi=1&html5=1&rel=0" frameborder="0" allowfullscreen iframe-video></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Add Arrows -->
-            <div class="swiper-button-next -dark" video-buttons></div>
-            <div class="swiper-button-prev -dark" video-buttons></div>
-        </div>
+        <div class="videoplayer item" data-aos="slide-up" data-aos-once="true">
+            <iframe width="680" height="320" src="https://www.youtube.com/embed/pTZGm_xOyg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
         <!-- LINKS-->
 
@@ -81,6 +66,8 @@
 
     </div>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
 
