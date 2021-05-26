@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.upper-side {
+    display: flex;
+}
+
+.back-img {
+    margin: 0;
+    background-image: url('./assets/img/okback.png');
+    position: relative;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+    background-position: center -150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.container-overlay {
+    background-color: black;
+    position: relative;
+    max-width: 100vw;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bioflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 
+#quequen {
+    margin-left: 0vw;
+    margin-top: 5vh;
+} */
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bio-desc {
+    margin-top: -10px;
+    margin-right: 10vw;
+    margin-bottom: 7vh;
+    text-align: center;
+}
+
+.bio-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.7rem 0 0 2rem;
+    color: white;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+a,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    box-shadow: inset 300px 0 0 0 white;
+}
+
+.insta {
+    padding: 0.5rem;
+    background-image: url('./assets/img/ig-icon.png');
+    background-repeat: no-repeat;
+    background-position: -10px -5px;
+    background-size: 3rem;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.twitch {
+    padding: 0.5rem;
+    background-image: url('./assets/img/tw-icon.png');
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+    background-size: 1.5rem;
+    padding-left: 3rem;
+    width: 100%;
+}
+
+.youtube {
+    padding: 0.5rem;
+    background-image: url('./assets/img/iutub.png');
+    background-repeat: no-repeat;
+    background-position: 1px 3px;
+    background-size: 1.6rem;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.desc {
+    color: white;
+    padding-left: 1rem;
+    margin: 1rem 0 0 1rem;
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: Nunito Sans, sans-serif;
+}
+
+.solidus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* VIDEO */
+
+.videoplayer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancion {
+    margin: 5vh 4vw 2vh 0;
+}
+
+.item {
+    margin: 8vh 20px 5px 10px;
+}
+
+iframe {
+    box-shadow: 15px -10px 0 -1px black, 15px -10px 0 1px white;
+}
+
+#quequen {
+    align-items: center;
+}
+
+
+/* LINKSSSSSSSSSSSSSS */
+
+.faq-container {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.faq {
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: Nunito Sans, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 0px;
+    margin: 20px 10px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+}
+
+.faq.active {
+    background-color: white;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+    height: 50vh;
+    color: black;
+}
+
+.spoti {
+    background-image: url(./assets/img/art2.jpeg);
+    background-size: cover;
+}
+
+.faq:hover {
+    /* border: 1px solid white; */
+    text-decoration: none;
+    color: black;
+    box-shadow: inset 100px 0 0 0 rgba(255, 255, 255, 0.582);
+}
+
+.spoti h3 {
+    color: black;
+}
+
+.patreon {
+    background-image: url(./assets/img/art3.jpeg);
+    background-size: cover;
+}
+
+.patreon h3 {
+    color: black;
+}
+
+.patreon.active {
+    background-image: url(./assets/img/art3.jpeg);
+    background-size: cover;
+}
+
+.cafe {
+    background-image: url(./assets/img/art1.jpeg);
+    background-size: cover;
+    background-position: 50px center;
+}
+
+.cafe h3 {
+    color: black;
+}
+
+.cafe.active {
+    background-image: url(./assets/img/art1.jpeg);
+    background-size: cover;
+}
+
+.cafe.active p {
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.flexcafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spoti.active {
+    background-image: url(./assets/img/art2.jpeg);
+    background-size: cover;
+}
+
+.faq.active::before {
+    color: #f0f0f0;
+    top: 30px;
+    right: -5px;
+    transform: rotateY(180deg);
+}
+
+.faq-title {
+    margin: 0 35px 0 0;
+}
+
+.faq-text {
+    display: none;
+    margin: 30px 10px;
+}
+
+.faq.active .faq-text {
+    display: block;
+}
+
+.faq-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.faq-toggle:focus {
+    outline: 0;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+.faq.active .faq-toggle {
+    background-color: #ffffffbb;
+    border-radius: 5px;
+    color: black;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footerflex p {
+    color: white;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 0.7rem;
+}
+
+.footerflex p a:hover {
+    text-decoration: none;
+    color: black;
+    box-shadow: inset 300px 0 0 0 white;
+}
