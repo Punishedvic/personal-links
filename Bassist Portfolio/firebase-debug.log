@@ -1,32 +1,32 @@
-[debug] [2021-05-27T03:27:54.572Z] ----------------------------------------------------------------------
-[debug] [2021-05-27T03:27:54.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vfcal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2021-05-27T03:27:54.575Z] CLI Version:   9.11.0
-[debug] [2021-05-27T03:27:54.575Z] Platform:      win32
-[debug] [2021-05-27T03:27:54.575Z] Node Version:  v14.4.0
-[debug] [2021-05-27T03:27:54.577Z] Time:          Thu May 27 2021 00:27:54 GMT-0300 (hora estándar de Argentina)
-[debug] [2021-05-27T03:27:54.577Z] ----------------------------------------------------------------------
+[debug] [2021-05-27T03:44:40.627Z] ----------------------------------------------------------------------
+[debug] [2021-05-27T03:44:40.630Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vfcal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-05-27T03:44:40.631Z] CLI Version:   9.11.0
+[debug] [2021-05-27T03:44:40.631Z] Platform:      win32
+[debug] [2021-05-27T03:44:40.631Z] Node Version:  v14.4.0
+[debug] [2021-05-27T03:44:40.633Z] Time:          Thu May 27 2021 00:44:40 GMT-0300 (hora estándar de Argentina)
+[debug] [2021-05-27T03:44:40.633Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-05-27T03:27:54.589Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-05-27T03:27:54.589Z] > authorizing via signed-in user (vfcalabro@gmail.com)
-[debug] [2021-05-27T03:27:54.590Z] [iam] checking project francisco-sarmiento for permissions ["firebase.projects.get"]
-[debug] [2021-05-27T03:27:54.593Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/francisco-sarmiento:testIamPermissions  
+[debug] [2021-05-27T03:44:40.646Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-27T03:44:40.646Z] > authorizing via signed-in user (vfcalabro@gmail.com)
+[debug] [2021-05-27T03:44:40.646Z] [iam] checking project francisco-sarmiento for permissions ["firebase.projects.get"]
+[debug] [2021-05-27T03:44:40.650Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/francisco-sarmiento:testIamPermissions  
  {"permissions":["firebase.projects.get"]}
-[debug] [2021-05-27T03:27:55.641Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 27 May 2021 03:27:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=918","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-05-27T03:27:55.643Z] > refreshing access token with scopes: []
-[debug] [2021-05-27T03:27:55.644Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2021-05-27T03:44:41.714Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 27 May 2021 03:44:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=926","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-27T03:44:41.718Z] > refreshing access token with scopes: []
+[debug] [2021-05-27T03:44:41.718Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2021-05-27T03:27:55.779Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 27 May 2021 03:27:55 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-05-27T03:27:55.814Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento [none]
-[debug] [2021-05-27T03:27:56.826Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento 200
-[debug] [2021-05-27T03:27:56.826Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento {"projectId":"francisco-sarmiento","projectNumber":"1099481624857","displayName":"francisco-sarmiento","name":"projects/francisco-sarmiento","resources":{"hostingSite":"francisco-sarmiento"},"state":"ACTIVE"}
+[debug] [2021-05-27T03:44:42.939Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 27 May 2021 03:44:42 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-27T03:44:42.968Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento [none]
+[debug] [2021-05-27T03:44:43.929Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento 200
+[debug] [2021-05-27T03:44:43.929Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento {"projectId":"francisco-sarmiento","projectNumber":"1099481624857","displayName":"francisco-sarmiento","name":"projects/francisco-sarmiento","resources":{"hostingSite":"francisco-sarmiento"},"state":"ACTIVE"}
 [info] 
 [info] === Serving from 'C:\Users\vfcal\Documents\Codeando\Bassist Portfolio'...
 [info] 
-[debug] [2021-05-27T03:27:56.829Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites 
-[debug] [2021-05-27T03:27:57.939Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites 200
-[debug] [2021-05-27T03:27:57.939Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites {"sites":[{"name":"projects/1099481624857/sites/francisco-sarmiento","defaultUrl":"https://francisco-sarmiento.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2021-05-27T03:27:57.939Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config [none]
-[debug] [2021-05-27T03:27:59.122Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config 200
-[debug] [2021-05-27T03:27:59.123Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config {"projectId":"francisco-sarmiento","storageBucket":"francisco-sarmiento.appspot.com","apiKey":"AIzaSyBbF6LHxlVP0qhx1_fGORhXIj-0mC9eMjk","authDomain":"francisco-sarmiento.firebaseapp.com","messagingSenderId":"1099481624857"}
+[debug] [2021-05-27T03:44:43.933Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites 
+[debug] [2021-05-27T03:44:45.045Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites 200
+[debug] [2021-05-27T03:44:45.045Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/francisco-sarmiento/sites {"sites":[{"name":"projects/1099481624857/sites/francisco-sarmiento","defaultUrl":"https://francisco-sarmiento.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-05-27T03:44:45.046Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config [none]
+[debug] [2021-05-27T03:44:46.212Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config 200
+[debug] [2021-05-27T03:44:46.213Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/francisco-sarmiento/webApps/-/config {"projectId":"francisco-sarmiento","storageBucket":"francisco-sarmiento.appspot.com","apiKey":"AIzaSyBbF6LHxlVP0qhx1_fGORhXIj-0mC9eMjk","authDomain":"francisco-sarmiento.firebaseapp.com","messagingSenderId":"1099481624857"}
 [info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
 [info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

@@ -263,13 +263,13 @@ iframe {
 }
 
 #patron {
-    width: 56vw;
-    height: 15vh;
+    width: 55%;
+    height: 15%;
 }
 
 #discord {
-    width: 45vw;
-    height: 8vh;
+    width: 50%;
+    height: 5%;
 }
 
 .flexcafe {
@@ -281,6 +281,18 @@ iframe {
 
 .spoti.active {
     background-image: url(./assets/img/art2.jpeg);
+    background-size: cover;
+    padding: 0;
+}
+
+.patreon.active {
+    background-image: url(./assets/img/art3.jpeg);
+    background-size: cover;
+    padding: 0;
+}
+
+.cafe.active {
+    background-image: url(./assets/img/art1.jpeg);
     background-size: cover;
     padding: 0;
 }
